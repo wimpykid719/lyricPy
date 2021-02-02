@@ -70,7 +70,7 @@ class Lyric():
 				self.__gtask += [get_lyric_soup(url)]
 			return await asyncio.gather(*self.__gtask)
 		try:
-			self.loop = asyncio.new_event_loop()
+			self.loop = asyncio.get_event_loop()
 			self.loop.run_until_complete(main_loop(url))
 		except asyncio.exceptions.CancelledError as e:
 			print("*** CancelledError ***", e)
