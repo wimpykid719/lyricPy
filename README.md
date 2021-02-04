@@ -35,7 +35,7 @@ copy and paste
 
 コピー・ペーストで動かして😅
 
-# Note
+
 
 # Usage
 
@@ -47,17 +47,24 @@ Just input the fist artist second song name who you want a lyric.
 
 入力を促されるからそれにしたがって、入力する。
 
+
+# Note
+
 This script need a space.
 
-空白で区切りがあるアーティスト・曲名等は空白も入れて
+正確な検索のために、空白で区切りがあるアーティスト・曲名等は空白も入れて下さい。
 
 ✅   justin bieber
+
 ❌   justinbieber
+
 
 # Author
 
 # License
 
-自由に使用して構いません。
+lyricPy is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+
+Mit License
 
 コードのレビューをして下さると助かります。
