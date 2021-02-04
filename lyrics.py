@@ -141,9 +141,10 @@ class Lyric():
 			else:
 				print('5回のリクエストで曲情報が取れなかった。')
 				return self.lyric_from_genius(url, depth - 1)
-		
-		
 
+print('入力は正確に空白等も入れて下さい')
+artist = input('アーティストを入力して下さい：')
+song = input('曲名を入力して下さい：')
 
-Lyric = Lyric('justin bieber', 'anyone')
+Lyric = Lyric(artist, song)
 print(Lyric.lyric)
