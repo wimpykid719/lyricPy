@@ -3,7 +3,7 @@
 It gets song lyrics from song name and artist name.
 
 # Demo
-![lyricPy](https://user-images.githubusercontent.com/23703281/106841803-1e317100-66e6-11eb-9c7d-eac301cfbfcf.gif)
+![lyricPy](https://user-images.githubusercontent.com/23703281/106842281-145c3d80-66e7-11eb-8813-59b3f3fc9ebe.gif)
 # Features
 
 Simple Python scripts.
